@@ -1,5 +1,7 @@
 # Vroo
 
+![Vroo: the whole group, one conversation. Open-source group voice for motorcycle riders.](docs/images/vroo-card.png)
+
 **Group voice for motorcycle riders: any intercom, any phone, with or without signal.**
 
 ![Status: prototype](https://img.shields.io/badge/status-prototype-orange) ![Licence: GPL-3.0](https://img.shields.io/badge/licence-GPL--3.0-blue) ![Platforms: iOS 17+ and Android 10+](https://img.shields.io/badge/platforms-iOS%2017%2B%20%7C%20Android%2010%2B-lightgrey)
@@ -103,6 +105,13 @@ The detailed list is in [docs/todo.md](docs/todo.md).
 | [docs/test-plan.md](docs/test-plan.md) | How it's tested, including on-bike field tests |
 | [docs/development.md](docs/development.md) | Toolchain, build instructions and working rules for developers |
 | [docs/defensive-publication.md](docs/defensive-publication.md) | Every technique in the design, published as prior art so that nobody can patent it |
+
+## Get involved
+
+- **Ride with an intercom?** Tell us whether Vroo works with yours: [report a device test](https://github.com/shubhanjanmedhi/vroo/issues/new?template=device-test.yml).
+- **Build things?** ESP32 firmware in C, Flutter and Dart, Swift and Kotlin: start with [CONTRIBUTING.md](CONTRIBUTING.md) and [docs/todo.md](docs/todo.md).
+- **Lead a riding group?** If your group would try it early, say hello in [Discussions](https://github.com/shubhanjanmedhi/vroo/discussions).
+- **Follow along:** star the repository, or choose **Watch → Custom → Releases** to hear when there's something new to try.
 
 ## Licence
 

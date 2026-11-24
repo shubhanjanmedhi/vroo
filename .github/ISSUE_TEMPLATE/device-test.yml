@@ -1,0 +1,47 @@
+name: Device test result
+description: Tell us how Vroo worked on your phone, with your intercom or earphones.
+title: "Device test: [phone] + [intercom or earphones]"
+labels: ["device test"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing! Every report helps riders know what works. Leave out anything personal: phone serial numbers, Wi-Fi names and passwords.
+  - type: input
+    id: phone
+    attributes:
+      label: Phone and OS version
+      placeholder: for example, iPhone 13 on iOS 27, or a Samsung phone on Android 14
+    validations:
+      required: true
+  - type: input
+    id: audio
+    attributes:
+      label: Intercom or earphones
+      description: The model, or "wired earphones", "Bluetooth earphones" or "loudspeaker".
+    validations:
+      required: true
+  - type: dropdown
+    id: path
+    attributes:
+      label: How the phones were connected
+      options:
+        - Through a Vroo box
+        - Over mobile data, through a relay server
+        - Both
+    validations:
+      required: true
+  - type: checkboxes
+    id: worked
+    attributes:
+      label: What worked
+      options:
+        - label: I heard the others clearly
+        - label: The others heard me clearly
+        - label: It kept working with the screen locked
+        - label: A phone call paused the group, and it came back after the call
+  - type: textarea
+    id: notes
+    attributes:
+      label: What went wrong, if anything
+      description: What you did, and what happened. A ride log helps (Share log on the ride screen).
