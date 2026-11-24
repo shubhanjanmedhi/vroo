@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# The firmware keeps its own config in NVS (namespace "vroo") and sets the hotspot up at every boot,
+# so the Wi-Fi driver doesn't need a saved copy of its own.
+CONFIG_ESP_WIFI_NVS_ENABLED=n

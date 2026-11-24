@@ -1,0 +1,26 @@
+name: vroo_audio
+description: "Vroo's audio plugin: voice in and out through the intercom's call link, calls, routes and speech."
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.13.7
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.getvroo.vroo_audio
+        pluginClass: VrooAudioPlugin
+      ios:
+        pluginClass: VrooAudioPlugin

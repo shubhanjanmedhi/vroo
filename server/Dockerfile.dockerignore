@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Only what the relay's image needs (this file sits beside the Dockerfile, so it applies to its builds alone).
+*
+!packages/vroo_protocol
+!server
+**/.dart_tool
+**/build

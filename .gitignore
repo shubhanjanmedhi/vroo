@@ -1,0 +1,30 @@
+# Flutter / Dart
+build/
+.dart_tool/
+.flutter-plugins*
+**/ios/Pods/
+**/android/.gradle/
+**/android/local.properties
+*.iml
+.idea/
+
+# ESP-IDF firmware
+firmware/build/
+firmware/sdkconfig
+firmware/sdkconfig.old
+firmware/managed_components/
+firmware/host_test/build/
+
+# Personal / local only (never public)
+**/ios/Flutter/Local.xcconfig
+ride_*.txt
+docs/decisions.md
+
+# Tooling scratch
+.superpowers/
+.DS_Store
+.vscode/
+
+# Private research: it names other companies and products, so it stays out of the public repo
+reports/
+research_notes/

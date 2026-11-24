@@ -1,0 +1,18 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+menu "Vroo box"
+
+    config VROO_LED_GPIO
+        int "Status LED GPIO"
+        default 2
+
+    config VROO_LED_ACTIVE_HIGH
+        bool "The LED lights when its GPIO is high"
+        default y
+
+    config VROO_BUTTON_GPIO
+        int "Reset button GPIO (hold 5 s to erase the config)"
+        default 0
+        help
+            0 is the BOOT button on most ESP32 boards. The button pulls the pin low.
+
+endmenu

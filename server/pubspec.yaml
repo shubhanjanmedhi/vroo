@@ -1,0 +1,15 @@
+name: vroo_relay
+description: "Vroo's relay server: forwards a group's encrypted packets between phones over UDP, without reading them."
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  vroo_protocol:
+    path: ../packages/vroo_protocol
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
